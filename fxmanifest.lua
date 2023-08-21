@@ -19,3 +19,5 @@ client_script {
 }
 
 lua54 'yes' 
+
+dependency 'ps-ui'
