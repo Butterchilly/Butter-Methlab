@@ -20,3 +20,7 @@
 ```
 
 Got To Inventory/html/images And Put All The Images From Images Folder
+
+
+# Dependency
+* [ps-ui](https://github.com/Project-Sloth/ps-ui)
