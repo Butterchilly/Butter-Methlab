@@ -9,12 +9,11 @@ RegisterNetEvent('Butter-Methlab:client:ChemicalMenu', function()
         },
         {
             header = 'Start Mixing Chemical',
-            txt = 'Print a message!',
+            txt = '',
             icon = 'fas fa-code-merge',
             params = {
                 event = 'Butter-Methlab:client:StartMixingChemical',
                 args = {
-		    message = 'This was called by clicking a button'
                 }
             }
         },  
@@ -35,29 +34,27 @@ RegisterNetEvent('Butter-Methlab:client:makemeth', function()
             params = {
                 event = 'Butter-Methlab:client:ingredient_1',
                 args = {
-		    message = 'This was called by clicking a button'
                 }
             }
         },  
         {
             header = 'Pack Meth (5)',
-            txt = 'Pack 5 Meth',
+            txt = 'Make 5 Meth Together',
             icon = 'fas fa-code-merge',
             params = {
                 event = 'Butter-Methlab:client:ingredient_5',
                 args = {
-		    message = 'This was called by clicking a button'
+		
                 }
             }
         },  
         {
             header = 'Pack Meth (10)',
-            txt = 'Pack 10 Meth',
+            txt = 'Make 10 Meth Together',
             icon = 'fas fa-code-merge',
             params = {
                 event = 'Butter-Methlab:client:ingredient_10',
                 args = {
-		    message = 'This was called by clicking a button'
                 }
             }
         },  
