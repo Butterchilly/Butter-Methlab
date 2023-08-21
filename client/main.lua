@@ -39,7 +39,7 @@ RegisterNetEvent('Butter-Methlab:client:StartMixingChemical', function ()
             QBCore.Functions.Notify('You Did It', 'success')
             
         else
-            QBCore.Functions.Notify('You Failed To Mix Chemical', 'error')
+            QBCore.Functions.Notify('You Failed To Mix Chemicals', 'error')
             TriggerEvent('Butter-Methlab:boom')
         end
         
@@ -70,7 +70,7 @@ RegisterNetEvent('Butter-Methlab:client:Temperaturemachine', function ()
         end, function()
         end)
         else
-            QBCore.Functions.Notify('You Failed To Mix Chemical', 'error')
+            QBCore.Functions.Notify('You Failed To Use Temperature Machine', 'error')
         end
         
     end, 10, 5, 3)
@@ -114,7 +114,7 @@ RegisterNetEvent('Butter-Methlab:client:ingredient_1', function ()
             QBCore.Functions.Notify('You Did It', 'success')
             
         else
-            QBCore.Functions.Notify('You Failed To Add Ingredient', 'error')
+            QBCore.Functions.Notify('You Failed To Make Meth', 'error')
         end
         
     end, 2, 20) -- NumberOfCircles, MS
@@ -136,7 +136,7 @@ RegisterNetEvent('Butter-Methlab:client:ingredient_5', function ()
             QBCore.Functions.Notify('You Did It', 'success')
             
         else
-            QBCore.Functions.Notify('You Failed To Add Ingredient', 'error')
+            QBCore.Functions.Notify('You Failed To Make Meth', 'error')
         end
         
     end, 2, 20) -- NumberOfCircles, MS
@@ -158,7 +158,7 @@ RegisterNetEvent('Butter-Methlab:client:ingredient_10', function ()
             QBCore.Functions.Notify('You Did It', 'success')
             
         else
-            QBCore.Functions.Notify('You Failed To Add Ingredient', 'error')
+            QBCore.Functions.Notify('You Failed To Make Meth', 'error')
         end
         
     end, 2, 20) -- NumberOfCircles, MS
