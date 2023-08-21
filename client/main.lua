@@ -40,7 +40,9 @@ RegisterNetEvent('Butter-Methlab:client:StartMixingChemical', function ()
             
         else
             QBCore.Functions.Notify('You Failed To Mix Chemicals', 'error')
-            TriggerEvent('Butter-Methlab:boom')
+            if Config.Blast then
+                TriggerEvent('Butter-Methlab:boom') 
+            end
         end
         
     end, 10, 5, 3)
@@ -71,6 +73,9 @@ RegisterNetEvent('Butter-Methlab:client:Temperaturemachine', function ()
         end)
         else
             QBCore.Functions.Notify('You Failed To Use Temperature Machine', 'error')
+            if Config.Blast then
+                TriggerEvent('Butter-Methlab:boom') 
+            end
         end
         
     end, 10, 5, 3)
@@ -93,6 +98,9 @@ RegisterNetEvent('Butter-Methlab:client:ingredient', function ()
             
         else
             QBCore.Functions.Notify('You Failed To Add Ingredient', 'error')
+            if Config.Blast then
+                TriggerEvent('Butter-Methlab:boom') 
+            end
         end
         
     end, 10, 5, 3)
