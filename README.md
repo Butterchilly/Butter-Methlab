@@ -2,7 +2,7 @@
 
 # Installation Guide
 
-*** qb-core/shared/items.lua and put ***
+## qb-core/shared/items.lua and put 
 ```
    --\\ Butter MethLab //--
     ['meth_key']                        = {['name'] = 'meth_key',                          ['label'] = 'Meth Lab Key',              ['weight'] = 500,          ['type'] = 'item',         ['image'] = 'meth_key.png',                ['unique'] = true,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'Key for a lock...?'},
