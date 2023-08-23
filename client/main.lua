@@ -172,6 +172,8 @@ RegisterNetEvent('Butter-Methlab:client:ingredient_10', function ()
     end, Config.ps_ui.NumberOfCircles, Config.ps_ui.MS) -- NumberOfCircles, MS
 end)
 
+-- \\ Material // --
+
 
 RegisterNetEvent('Butter-Methlab:boom', function()
 	playerPed = (PlayerPedId())
