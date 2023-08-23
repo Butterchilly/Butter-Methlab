@@ -25,7 +25,7 @@ end)
 
 -- \\ Mix Chemical // --
 RegisterNetEvent('Butter-Methlab:client:StartMixingChemical', function ()
-    exports['ps-ui']:Thermite(function(success)
+    exports[Config.Resource_Names.MiniGame]:Thermite(function(success)
         if success then
             QBCore.Functions.Progressbar('mixingchemical', 'Mixing Chemical', 5000, false, true, {
                 disableMovement = true,
@@ -50,7 +50,7 @@ end)
 
 -- \\ Temperature Machine // --
 RegisterNetEvent('Butter-Methlab:client:Temperaturemachine', function ()
-    exports['ps-ui']:Thermite(function(success)
+    exports[Config.Resource_Names.MiniGame]:Thermite(function(success)
         if success then
             QBCore.Functions.Progressbar('mixingchemical', 'Increasing Temperature', 5000, false, true, {
                 disableMovement = true,
@@ -83,7 +83,7 @@ end)
 
 -- \\ Ingredient Machine // --
 RegisterNetEvent('Butter-Methlab:client:ingredient', function ()
-    exports['ps-ui']:Thermite(function(success)
+    exports[Config.Resource_Names.MiniGame]:Thermite(function(success)
         if success then
             QBCore.Functions.Progressbar('mixingchemical', 'Adding Ingredient', 5000, false, true, {
                 disableMovement = true,
@@ -108,7 +108,7 @@ end)
 
 -- \\ Make  Meth 1 // --
 RegisterNetEvent('Butter-Methlab:client:ingredient_1', function ()
-    exports['ps-ui']:Circle(function(success)
+    exports[Config.Resource_Names.MiniGame]:Circle(function(success)
         if success then
             QBCore.Functions.Progressbar('mixingchemical', 'Making Meth', 5000, false, true, {
                 disableMovement = true,
@@ -125,12 +125,12 @@ RegisterNetEvent('Butter-Methlab:client:ingredient_1', function ()
             QBCore.Functions.Notify('You Failed To Make Meth', 'error')
         end
         
-    end, 2, 20) -- NumberOfCircles, MS
+    end, Config.ps_ui.NumberOfCircles, Config.ps_ui.MS) -- NumberOfCircles, MS
 end)
 
 -- \\ Make  Meth 5 // --
 RegisterNetEvent('Butter-Methlab:client:ingredient_5', function ()
-    exports['ps-ui']:Circle(function(success)
+    exports[Config.Resource_Names.MiniGame]:Circle(function(success)
         if success then
             QBCore.Functions.Progressbar('mixingchemical', 'Making Meth', 15000, false, true, {
                 disableMovement = true,
@@ -147,12 +147,12 @@ RegisterNetEvent('Butter-Methlab:client:ingredient_5', function ()
             QBCore.Functions.Notify('You Failed To Make Meth', 'error')
         end
         
-    end, 2, 20) -- NumberOfCircles, MS
+    end, Config.ps_ui.NumberOfCircles, Config.ps_ui.MS) -- NumberOfCircles, MS
 end)
 
 -- \\ Make  Meth 10 // --
 RegisterNetEvent('Butter-Methlab:client:ingredient_10', function ()
-    exports['ps-ui']:Circle(function(success)
+    exports[Config.Resource_Names.MiniGame]:Circle(function(success)
         if success then
             QBCore.Functions.Progressbar('mixingchemical', 'Making Meth', 25000, false, true, {
                 disableMovement = true,
@@ -169,7 +169,7 @@ RegisterNetEvent('Butter-Methlab:client:ingredient_10', function ()
             QBCore.Functions.Notify('You Failed To Make Meth', 'error')
         end
         
-    end, 2, 20) -- NumberOfCircles, MS
+    end, Config.ps_ui.NumberOfCircles, Config.ps_ui.MS) -- NumberOfCircles, MS
 end)
 
 
