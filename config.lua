@@ -7,10 +7,13 @@ Config.Blast = true -- If True The Player Will Be blasted If He Fail The Mini Ga
 
 
 Config.ps_ui = {
+    -- Circle Game --
     NumberOfCircles = 4,
     MS = 20,
 }
-Config.Resource_Names = {
+
+----\\ [Name Of The Scriptes] //----
+Config.Resource_Names = { 
     Core = 'qb-core',
     Target = 'qb-target',
     Menu = 'qb-menu',
