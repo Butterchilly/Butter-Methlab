@@ -4,7 +4,7 @@ game 'gta5'
 
 author 'butterchilly'
 description 'Advanced Meth Lab Script For QBCore'
-version '1.0.2'
+version '1.5.0'
 
 shared_scripts {
     'config.lua'
