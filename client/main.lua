@@ -22,7 +22,12 @@ RegisterNetEvent('Butter-Methlab:client:ExitLab', function()
     SetEntityHeading(ped, 48.14)
 end)
 
-
+-- \\ Meth Shop // --
+if Config.shop then
+    RegisterNetEvent('Butter-Methlab:client:Shop', function()
+        TriggerServerEvent("inventory:server:OpenInventory", "shop", "hospital", Config.shopitems)
+end)
+end
 -- \\ Mix Chemical // --
 RegisterNetEvent('Butter-Methlab:client:StartMixingChemical', function ()
     exports[Config.Resource_Names.MiniGame]:Thermite(function(success)
