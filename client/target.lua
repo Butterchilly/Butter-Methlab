@@ -107,3 +107,22 @@ exports[Config.Resource_Names.Target]:AddBoxZone("makemeth", vector3(986.78, -14
     },
     distance = 2.5, 
   })
+  if Config.shop then
+  exports[Config.Resource_Names.Target]:AddBoxZone("shop", vector3(436.6, 2995.63, 41.28), 1, 1, {
+    name = "shop",
+    heading = 21,
+    debugPoly = Config.Debug,
+    minZ=40.08,
+    maxZ=42.68,
+}, {
+    options = {
+        {
+            type = "client",
+            event = "Butter-Methlab:client:Shop",
+            icon = 'fas fa-example',
+            label = 'Talk To Dealer',
+        }
+    },
+    distance = 2.5, 
+  })
+end
