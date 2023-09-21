@@ -7,6 +7,15 @@ Config.Blast = true -- If True The Player Will Be blasted If He Fail The Mini Ga
 
 Config.shop = true -- If You Want Player To Buy Item From Shop
 
+Config.blip = false
+
+Config.Blip_Config = {
+    label = 'Meth Lab',
+    coords = vector3(-1531.54, -887.34, 10.17),
+    sprite = 499,
+    scale = 0.9,
+    color = 27
+}
 
 Config.ps_ui = {
     -- Circle Game --

@@ -28,6 +28,21 @@ if Config.shop then
         TriggerServerEvent("inventory:server:OpenInventory", "shop", "hospital", Config.shopitems)
 end)
 end
+
+-- \\ Meth Blip // --
+if Config.blip then
+    local Blip = Config.Blip_Config
+	Methlab = AddBlipForCoord(Blip.coords)
+	SetBlipSprite(Methlab, Blip.sprite)
+	SetBlipScale(Methlab, Blip.scale)
+	SetBlipDisplay(Methlab, 4)
+	SetBlipColour(Methlab, Blip.color)
+	SetBlipAsShortRange(Methlab, true)
+	BeginTextCommandSetBlipName("STRING")
+	AddTextComponentString(Blip.label)
+	EndTextCommandSetBlipName(Methlab)
+end
+
 -- \\ Mix Chemical // --
 RegisterNetEvent('Butter-Methlab:client:StartMixingChemical', function ()
     exports[Config.Resource_Names.MiniGame]:Thermite(function(success)
