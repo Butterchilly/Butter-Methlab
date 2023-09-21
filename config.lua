@@ -5,11 +5,46 @@ Config.Use_Methlab_key = false -- If True Player Will Need (meth_key) To Enter T
 
 Config.Blast = true -- If True The Player Will Be blasted If He Fail The Mini Game
 
+Config.shop = true -- If You Want Player To Buy Item From Shop
+
 
 Config.ps_ui = {
     -- Circle Game --
     NumberOfCircles = 4,
     MS = 20,
+}
+
+
+-- \\ Works Only If Config.shop = true // --
+Config.shopitems = {
+    label = "Dealer",    
+    slots = 3,
+    items = {
+        [1] = {
+            name = "sulfuricacid",
+            price = 100,
+            amount = 30,
+            info = {},
+            type = "item",
+            slot = 1,
+        },
+        [2] = {
+            name = "hydrochloricacid",
+            price = 150,
+            amount = 30,
+            info = {},
+            type = "item",
+            slot = 2,
+        },
+        [3] = {
+            name = "sodium_benzoate",
+            price = 200,
+            amount = 30,
+            info = {},
+            type = "item",
+            slot = 3,
+        },
+    }
 }
 
 ----\\ [Name Of The Scriptes] //----
