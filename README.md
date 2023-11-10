@@ -9,19 +9,16 @@
 
 ## qb-core/shared/items.lua and put 
 ```
-   --\\ Butter MethLab //--
-    ['meth_key']                        = {['name'] = 'meth_key',                          ['label'] = 'Meth Lab Key',              ['weight'] = 500,          ['type'] = 'item',         ['image'] = 'meth_key.png',                ['unique'] = true,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'Key for a lock...?'},
-    
-    ['sulfuricacid']                    = {['name'] = 'sulfuricacid',                      ['label'] = 'Sulfuric Acid',             ['weight'] = 500,          ['type'] = 'item',         ['image'] = 'sulfuricacid.png',            ['unique'] = true,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'To Make Something...?'},
-    ['hydrochloricacid']                = {['name'] = 'hydrochloricacid',                  ['label'] = 'Hydrochloric Acid',         ['weight'] = 500,          ['type'] = 'item',         ['image'] = 'hydrochloricacid.png',            ['unique'] = true,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'To Make Something...?'},
-    ['sodium_benzoate']                 = {['name'] = 'sodium_benzoate',                   ['label'] = 'Sodium Benzoate',           ['weight'] = 500,          ['type'] = 'item',         ['image'] = 'sodium_benzoate.png',            ['unique'] = true,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'To Make Something...?'},
-    ['liquidmix']                       = {['name'] = 'liquidmix',                         ['label'] = 'Mixed Liquid',              ['weight'] = 500,          ['type'] = 'item',         ['image'] = 'liquidmix.png',            ['unique'] = true,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'To Make Something...?'},
-
-    ['meth_powder']                     = {['name'] = 'meth_powder',                       ['label'] = 'Meth Powder',               ['weight'] = 500,          ['type'] = 'item',         ['image'] = 'meth_powder.png',            ['unique'] = true,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'To Make Something...?'},
-    ['meth_ingredient_2']               = {['name'] = 'meth_ingredient_2',                 ['label'] = 'Meth Ingredient',           ['weight'] = 500,          ['type'] = 'item',         ['image'] = 'meth_ingredient_2.png',            ['unique'] = true,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'To Make Something...?'},
-    ['meth_empty_baggy']                = {['name'] = 'meth_empty_baggy',                  ['label'] = 'Meth Empty Baggy',         ['weight'] = 500,          ['type'] = 'item',          ['image'] = 'meth_empty_baggy.png',            ['unique'] = true,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'To Make Something...?'},
-
-    ['meth1']                = {['name'] = 'meth1',                  ['label'] = 'Meth',         ['weight'] = 500,          ['type'] = 'item',          ['image'] = 'meth1.png',            ['unique'] = true,          ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'To Make Something...?'},
+  --\\ Butter Meth Lab //--
+    meth_key                     = { name = 'meth_key', label = 'Meth Lab Key', weight = 100, type = 'item', image = 'meth_key.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = '' },
+    sulfuricacid                 = { name = 'sulfuricacid', label = 'Sulfuric Acid', weight = 100, type = 'item', image = 'sulfuricacid.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = '' },
+    hydrochloricacid             = { name = 'hydrochloricacid', label = 'Hydrochloric Acid', weight = 100, type = 'item', image = 'hydrochloricacid.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = '' },
+    sodium_benzoate             = { name = 'sodium_benzoate', label = 'Sodium Benzoate', weight = 100, type = 'item', image = 'sodium_benzoate.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = '' },
+    liquidmix                    = { name = 'liquidmix', label = 'Liquid Mix', weight = 100, type = 'item', image = 'liquidmix.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = '' },
+    meth_powder                    = { name = 'meth_powder', label = 'Meth Powder', weight = 100, type = 'item', image = 'meth_powder.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = '' },
+    meth_empty_baggy             = { name = 'meth_empty_baggy', label = 'Empty Baggy', weight = 100, type = 'item', image = 'meth_empty_baggy.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = '' },
+    meth_ingredient_2             = { name = 'meth_ingredient_2', label = 'Meth Ingredient', weight = 100, type = 'item', image = 'meth_ingredient_2.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = '' },
+    meth1               
 ```
 
 Got To Inventory/html/images And Put All The Images From Images Folder
