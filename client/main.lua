@@ -1,5 +1,5 @@
 local QBCore = exports[Config.Resource_Names.Core]:GetCoreObject()
-
+local Framework = require 'base.client'
 -- \\ Enter Lab // --
 RegisterNetEvent('Butter-Methlab:client:EnterLab', function()
     local ped = PlayerPedId() 
@@ -7,7 +7,7 @@ RegisterNetEvent('Butter-Methlab:client:EnterLab', function()
 
     if Config.Use_Methlab_key then
         if not hasItem then
-            QBCore.Functions.Notify('You Dont Have Meth Lab Key To Enter The Lab', 'error')
+            Framework:Notify('You Dont Have Meth Lab Key To Enter The Lab', 'error')
             return
         end
     end

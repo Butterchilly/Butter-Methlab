@@ -1,13 +1,16 @@
 Config = {}
-Config.Debug = false -- If True You Can See The PolyZone
+Config.Debug = true -- If True You Can See The PolyZone
 
-Config.Use_Methlab_key = false -- If True Player Will Need (meth_key) To Enter The Lab
+Config.Use_Methlab_key = true -- If True Player Will Need (meth_key) To Enter The Lab
 
 Config.Blast = true -- If True The Player Will Be blasted If He Fail The Mini Game
 
 Config.shop = true -- If You Want Player To Buy Item From Shop
 
-Config.blip = false
+Config.blip = true
+
+Config.Framework = 'qb'
+Config.Notify = 'qb'
 
 Config.Blip_Config = {
     label = 'Meth Lab',
